@@ -67,7 +67,7 @@ export const ContentSection = (): JSX.Element => {
             >
               <CardContent className="p-[17px] flex flex-col gap-3">
                 <div className="flex items-center justify-between w-full">
-                  <span className="[font-family:'Inter',Helvetica] font-medium text-slate-500 text-xs tracking-[0] leading-4">
+                  <span className="random font-medium text-slate-500 text-xs tracking-[0] leading-4">
                     {issue.id}
                   </span>
                   <Badge
@@ -79,14 +79,14 @@ export const ContentSection = (): JSX.Element => {
                       alt="AI Prompt Icon"
                       src="/svg-3.svg"
                     />
-                    <span className="[font-family:'Inter',Helvetica] font-normal text-emerald-600 text-xs tracking-[0] leading-4">
+                    <span className="random font-normal text-emerald-600 text-xs tracking-[0] leading-4">
                       AI Prompt
                     </span>
                   </Badge>
                 </div>
 
                 <div className="flex flex-col items-start w-full">
-                  <h3 className="[font-family:'Inter',Helvetica] font-normal text-slate-900 text-xl tracking-[-0.50px] leading-7">
+                  <h3 className="random font-normal text-slate-900 text-xl tracking-[-0.50px] leading-7">
                     {issue.title.includes("<br />")
                       ? issue.title.split("<br />").map((line, i) => (
                           <React.Fragment key={i}>
@@ -117,7 +117,7 @@ export const ContentSection = (): JSX.Element => {
             variant="outline"
             className="h-auto rounded-xl border border-solid border-slate-300 px-6 py-3 flex items-center gap-2"
           >
-            <span className="[font-family:'Inter',Helvetica] font-medium text-slate-900 text-[15px] tracking-[0] leading-[22.5px]">
+            <span className="random font-medium text-slate-900 text-[15px] tracking-[0] leading-[22.5px]">
               Load More
             </span>
             <img className="w-4 h-4" alt="Load More Icon" src="/svg-10.svg" />
@@ -137,7 +137,7 @@ export const ContentSection = (): JSX.Element => {
             </div>
 
             <div className="flex flex-col items-start w-full">
-              <p className="[font-family:'Inter',Helvetica] font-normal text-slate-600 text-[15px] tracking-[0] leading-[24.4px]">
+              <p className="random font-normal text-slate-600 text-[15px] tracking-[0] leading-[24.4px]">
                 Join 12k+ readers for actionable tips on
                 <br />
                 how to grow your creator business and
@@ -152,7 +152,7 @@ export const ContentSection = (): JSX.Element => {
               <Input
                 type="email"
                 placeholder="name@email.com"
-                className="w-full bg-white border-slate-300 rounded-xl pt-3.5 pb-[15.5px] px-[17px] [font-family:'Inter',Helvetica] font-normal text-slate-400 text-[15px] tracking-[0]"
+                className="w-full bg-white border-slate-300 rounded-xl pt-3.5 pb-[15.5px] px-[17px] random font-normal text-slate-400 text-[15px] tracking-[0]"
               />
 
               <Button className="w-full h-[46.5px] bg-indigo-600 rounded-xl flex items-center justify-center gap-2 hover:bg-indigo-700">
@@ -161,7 +161,7 @@ export const ContentSection = (): JSX.Element => {
                   alt="Subscribe Icon"
                   src="/svg-9.svg"
                 />
-                <span className="[font-family:'Inter',Helvetica] font-normal text-white text-[15px] tracking-[-0.38px] leading-[22.5px]">
+                <span className="random font-normal text-white text-[15px] tracking-[-0.38px] leading-[22.5px]">
                   Subscribe
                 </span>
               </Button>

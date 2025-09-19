@@ -29,14 +29,14 @@ export const HeroSection = (): JSX.Element => {
           </div>
 
           <div className="flex items-center pt-2 pb-0 px-0 self-stretch w-full flex-col relative flex-[0_0_auto]">
-            <h1 className="relative flex items-center justify-center w-[1124px] mt-[-1.00px] ml-[-178.00px] mr-[-178.00px] [font-family:'Inter',Helvetica] font-normal text-slate-900 text-5xl text-center tracking-[-1.20px] leading-[48px]">
+            <h1 className="relative flex items-center justify-center w-[1124px] mt-[-1.00px] ml-[-178.00px] mr-[-178.00px] random font-normal text-slate-900 text-5xl text-center tracking-[-1.20px] leading-[48px]">
               Practical prompts to help you grow your creator business—with the
               help of AI.
             </h1>
           </div>
 
           <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
-            <p className="relative flex items-center justify-center self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-normal text-slate-600 text-base text-center tracking-[0] leading-6">
+            <p className="relative flex items-center justify-center self-stretch mt-[-1.00px] random font-normal text-slate-600 text-base text-center tracking-[0] leading-6">
               Every Monday you&apos;ll get one expertly‑crafted AI prompt for
               growing a calm business—one that is
               <br />
@@ -55,7 +55,7 @@ export const HeroSection = (): JSX.Element => {
 
             <Button className="relative w-[214.47px] h-[46.5px] bg-indigo-600 rounded-xl overflow-hidden shadow-[0px_10px_20px_-10px_#4f46e5cc] hover:bg-indigo-700">
               <img className="w-4 h-4 mr-2" alt="Svg" src="/svg-2.svg" />
-              <span className="w-[151px] h-[23px] flex items-center justify-center [font-family:'Inter',Helvetica] font-normal text-white text-[15px] text-center tracking-[-0.38px] leading-[22.5px] whitespace-nowrap">
+              <span className="w-[151px] h-[23px] flex items-center justify-center random font-normal text-white text-[15px] text-center tracking-[-0.38px] leading-[22.5px] whitespace-nowrap">
                 Join 12,000+ Readers
               </span>
             </Button>

@@ -7,9 +7,14 @@
   }
 }
 
+@font-face {
+  font-family: "encode";
+  src: url(./public/fonts/encode/EncodeSansSemiCondensed-Regular.ttf);
+}
+
 body {
   overflow-x: hidden;
-  font-family: "Inter", sans-serif;
+  font-family: "encode", sans-serif !important;
 }
 
 
