@@ -24,7 +24,7 @@ export const HeroSection = (): JSX.Element => {
           <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
             <p className="relative flex items-center justify-center self-stretch mt-[-1.00px] [font-family:'Kalam',Helvetica] font-bold text-[#595e69] text-base text-center tracking-[2.16px] leading-6">
               A WEEKLY NEWSLETTER FOR SOLO CREATORS USING AI TO WORK LESS SO
-              THEY CAN LIVE MORE dsaasdasddasasd ddasasdasd asddasasdasddssa asdasdasd asdasdasdasd
+              THEY CAN LIVE MORE
             </p>
           </div>
 
