@@ -38,7 +38,7 @@ export const HeroSection = (): JSX.Element => {
           <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
             <p className="relative flex items-center justify-center self-stretch mt-[-1.00px] random font-normal text-slate-600 text-base text-center tracking-[0] leading-6">
               Every Monday you&apos;ll get one expertly‑crafted AI prompt for
-              growing a calm business—one that is
+              growing a calm business—one that isxxxxxxxx
               <br />
               predictable, profitable, and peaceful.
             </p>
